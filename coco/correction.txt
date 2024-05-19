@@ -1,0 +1,92 @@
+- Méthode (hygiène) : il faut éviter le franglais. on choisit une langue et on s'y tient.
+
+- Méthode (CSS) : Attention de ne pas surqualifier vos sélecteurs. 
+p. ex `asset/css/main.css:112:1` voir `a.bouton.reserver_ici_btn`
+p. ex `asset/css/main.css:138:14` voir `header.accueil_header`
+
+- Méthode (CSS) : Cette propriété doit être associée à une autre. 
+p. ex `asset/css/main.css:192:5` voir `position & z-index: 1`
+
+- Méthode (CSS) : Les dégagements ne vont pas sur le contenu mais sur les conteneurs. 
+p. ex `asset/css/main.css:125:5` voir `h2 & padding-bottom`
+
+- Méthode (CSS) : Propriété et unité inappropriées. 
+p. ex `asset/css/main.css:161:13` voir `height & vh`
+
+- Méthode (CSS) : Spécificité trop élevée pour le sélecteur. 
+p. ex `asset/css/footer.css:45:1` voir `.pied_de_page .structure .contenu_contact`
+p. ex `asset/css/media-queries.css:71:5` voir `.pied_de_page .structure .contenu_contact`
+
+- Méthode (CSS) : vous répétez trop de règles. Créez une classe commune dans ce cas.
+.botanique, .promotion, .contenu_recherche partagent 5 règles.
+.botanique, .mission>article, .contenu_recherche partagent 4 règles.
+.botanique, .contenu_recherche partagent 5 règles.
+
+- Méthode (HTML) : erreurs de validation HTML.
+p. ex. validez avec le validateur W3C.
+
+- Méthode (hygiène) : erreur(s) d'accessibilité.
+p. ex. testez avec Wave. 
+
+- Communication graphique : alignements manquants, inadéquat ou erratiques.
+p. ex. voir alignement.png
+/*sa modific h2 in h4 si sa dau la 
+.contact_info_colonne, .abonez-toi {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */ fara justify-content
+    gap: 30px;
+}
+
+- Communication graphique : chevauchement.
+p. ex. voir chevauchement.png
+Correction `asset/css/navigation.css:102:18`
+/* padding: 12px 16px; */ /*changé en: "padding: 5px;" */
+
+- Communication graphique : incohérence du langage graphique
+p. ex. voir langage.png (noir au lieu de blanc)
+/*sa schimb iconita in una alba*/
+
+
+
+- Communication graphique : lisibilité inadéquate du texte.
+p. ex. voir lisibilite.png
+/*sa schimb culoarea la text in brun*/
+
+- Communication graphique : occupation sous-optimale de l'espace.
+p. ex. voir occupation-espace.png
+
+- Communication graphique : rythme inadéquat, trop lâche, serré ou erratique.
+p. ex. voir rythme-serre.png
+
+- Expérience utilisateur : évitez en général d'apposer des styles interactifs sur les éléments non-interactifs. C'est confondant.
+p. ex. voir style-interactif.png
+/*sa scot hoverul*/
+
+### Expérience utilisateur 2.3 / 3
+
+- Respect des règles et principes de l'ergonomie
+- Respect de l'accessibilité
+- Adaptation complète et efficace
+
+### Communication graphique  3.2 / 4
+
+- Cohérence et uniformité du langage graphique
+- Communication graphique fonctionnelle & esthétique
+
+## Méthode de travail 2.3 / 3
+
+- Le HTML est sémantique, valide et accessible
+- Le code CSS est bien organisé et les intentions sont claires
+- Le langage CSS est généralement bien utilisé
+
+### Appréciation générale 2.5 / 3
+
+- Argumentation des choix les plus importants
+- Présence et qualité des éléments requis
+- Propreté et rigueur générales
+- Respect des consignes
+
+### Ajustement aux commentaires de l'enseignant  / 2
+
+10.3

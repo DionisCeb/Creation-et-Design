@@ -1,0 +1,24 @@
+Le service stratégie et expérience utilisateur m'a livré son premier produit : le prototype. J'ai donc adapté ce projet à plusieurs appareils, plusieurs configurations de fenêtres et en respectant les intentions originales du prototype, j'ai également fait des ajustements et ajouté du nouveau contenu.
+
+Les changements importants :
+
+Règles générales:
+Le rythme vertical -> La plupart du temps, le rythme vertical est resté inchangé, c'était bien assemblé et j'ai décidé de le garder ainsi.
+Les tyles de structure -> La plupart du temps, les styles généraux initiaux n'étaient pas bien pensés pour être compatibles avec l'adaptation du contenu supplémentaire, c'est pourquoi l'ajout du contenu supplémentaire était parfois influencé par le conflit de styles. J'ai donc dû supprimer ou modifier certains styles. J'ai utilisé la spécification "! Important" dans un cas.
+
+Barre de navigation:
+Le fichier de styles de barre de navigation initial a été renommé "navigation.css". 
+La barre de navigation a été adaptée dans un format adaptatif pour les téléphones mobiles, en utilisant la méthodologie du « menu hamburger ». La logique d'ouverture et de fermeture de la navigation pour les appareils mobiles est écrite dans le fichier "navbar.js". En développant la navigation adaptative, cette vidéo m'a été utile, où j'ai découvert comment placer les éléments en position absolue et relative, après quoi j'ai ajusté en fonction de mes besoins. Source: "https://www.youtube.com/watch?v=GdrbE-s5DgQ&t=103s".
+
+Restaurants en vedette:
+Dans cette section, j'ai ajouté trois images supplémentaires de restaurants, j'ai également adapté la section en fonction des écrans, en flex, en donnant la section "flex-wrap: wrap", précisant le nombre d'images sur une ligne. Pour les grands écrans, il y a trois images, pour les moyens deux, et pour les écrans mobiles une seule image par ligne.
+
+
+Trouvez en restaurant Vedge près de chez vous: 
+Dans cette section, nous avons ajouté un champ de recherche, afin que l'utilisateur puisse trouver les emplacements des restaurants Vedge. La recherche s'effectue sous forme de ville ou de code postal. Ceci est juste la mise en page de recherche. La logique de recherche se fera par javascript.
+J'ai également ajouté un conteneur googlemaps, de sorte que l'utilisateur, après avoir recherché le restaurant dans le champ de recherche, verra l'emplacement sur la carte.
+J'ai jugé pertinent de faire une petite vérification des disponibilités. Ainsi, l'utilisateur trouvant l'emplacement du restaurant pourrait voir dans la même section si cet emplacement a des places disponibles. Après avoir appuyé sur le bouton, l'utilisateur sera dirigé vers la page générale de réservation (qui sera développée dans le TP 3).
+
+
+Le pied de page:
+Le pied de page a été complètement modifié, ajoutant ainsi trois colonnes. La première colonne est présentée par les liens du site Web, la seconde par les contacts de l'entreprise et les informations pour les personnes intéressées par la franchise Vedge, et un petit formulaire pour les utilisateurs intéressés à s'abonner aux promotions et aux actualités.

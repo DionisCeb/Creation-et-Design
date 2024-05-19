@@ -1,0 +1,47 @@
+.abonez-toi {
+    justify-content: start;
+    gap: 5px;
+}
+
+.abonez-toi h2 {
+    border-bottom: none;
+}
+
+/*description service*/
+.abonez-toi p {
+    font-size: 1rem; 
+}
+
+/*La boite*/
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Champ*/
+.newsletter-form input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*bouton général pour le pied de page*/
+.bouton_footer {
+    padding: 10px 20px;
+    background-color: #efd281;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/*Effet*/
+.bouton_footer:hover {
+    background-color: #60938e;
+}
+
+
